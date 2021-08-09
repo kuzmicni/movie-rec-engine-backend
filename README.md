@@ -12,7 +12,7 @@ I created this project to leverage the open-source [MovieLens dataset](https://g
 To run the Flask API, you will first need to download the similarity matrix file from here:
 
 ```
-https://drive.google.com/drive/folders/1FH6bWCcw1OoRf4QJaFaf4gIegIGSEx9r
+[Google drive folder: movie_similarity.csv](https://drive.google.com/drive/folders/1FH6bWCcw1OoRf4QJaFaf4gIegIGSEx9r)
 ```
 
 and place the **movie_similarity.csv** file into the root directory. Your code structure should look as follows:
