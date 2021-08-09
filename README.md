@@ -46,5 +46,5 @@ If everything is working properly, you should see the following output/recommend
 
 ### Next steps - Build out the frontend
 
-This backend API is designed to work with the Vue.js frontend: [Vue.js Frontend Repo](https://github.com/kuzmicni/movie-rec-engine-frontend)
+This backend API is designed to work with the Vue.js frontend which you can find here: [Vue.js Frontend Repo](https://github.com/kuzmicni/movie-rec-engine-frontend)
 
