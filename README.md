@@ -34,7 +34,7 @@ pip install Flask Flask-Cors pandas
 python application.py
 ```
 
-**To Test the API,** in a  separate terminal run the following:
+**To test the API,** in a  separate terminal run the following:
 
 ```
 curl -X POST http://0.0.0.0:80/recms -H 'Content-Type: application/json' -d '{"movie_title":"Heat (1995)"}'
