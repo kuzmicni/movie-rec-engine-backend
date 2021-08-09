@@ -9,7 +9,7 @@ I created this project to leverage the open-source [MovieLens dataset](https://g
 
 ## Get started
 
-To run the Flask API, you will first need to download the similarity matrix file from here
+To run the Flask API, you will first need to download the similarity matrix file from here:
 
 ```
 https://drive.google.com/drive/folders/1FH6bWCcw1OoRf4QJaFaf4gIegIGSEx9r
