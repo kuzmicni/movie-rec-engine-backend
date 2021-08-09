@@ -44,4 +44,7 @@ If everything is working properly, you should see the following output/recommend
 
 ![image](https://user-images.githubusercontent.com/26292532/128763468-d0c46790-a393-4e9e-9bdd-daf226d6c105.png)
 
+### Next steps - Build out the frontend
+
+This backend API is designed to work with the Vue.js frontend: [Vue.js Frontend Repo](https://github.com/kuzmicni/movie-rec-engine-frontend)
 
