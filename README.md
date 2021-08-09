@@ -15,15 +15,17 @@ To run the Flask API, you will first need to download the similarity matrix file
 https://drive.google.com/drive/folders/1FH6bWCcw1OoRf4QJaFaf4gIegIGSEx9r
 ```
 
-and place **movie_similarity.csv** file into the root directory. Your code structure should look as follows:
+and place the **movie_similarity.csv** file into the root directory. Your code structure should look as follows:
 
 ![image](https://user-images.githubusercontent.com/26292532/128761706-172d52a1-6dcf-41be-979d-c97753bced21.png)
 
 
-Next make sure you have the necessary libraries installed. For example, if you are using conda, you can create a separate environment and install necessary libraries as follows:
+Next, make sure you have the necessary libraries installed. For example, if you are using anaconda, you can create a separate environment and install necessary libraries as follows:
 
 ```
-conda env 
+conda create --name py37_tut python=3.7
+conda activate py37_tut
+pip install Flask Flask-Cors pandas
 ```
 
 **To run the API:**
@@ -32,7 +34,7 @@ conda env
 python application.py
 ```
 
-To Test the API, in a  separate terminal run the following:
+**To Test the API,** in a  separate terminal run the following:
 
 ```
 curl -X POST http://0.0.0.0:80/recms -H 'Content-Type: application/json' -d '{"movie_title":"Heat (1995)"}'
@@ -40,5 +42,6 @@ curl -X POST http://0.0.0.0:80/recms -H 'Content-Type: application/json' -d '{"m
 
 If everything is working properly, you should see the following output/recommendations:
 
+![image](https://user-images.githubusercontent.com/26292532/128763468-d0c46790-a393-4e9e-9bdd-daf226d6c105.png)
 
 
